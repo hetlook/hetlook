@@ -8,10 +8,10 @@
 import scrapy
 
 
-class DongguanspiderItem(scrapy.Item):
+class DoubanspiderItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     title = scrapy.Field()
-    number = scrapy.Field()
+    score = scrapy.Field()
     content = scrapy.Field()
-    url = scrapy.Field()
+    info = scrapy.Field()
